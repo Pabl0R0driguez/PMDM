@@ -18,6 +18,16 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main2);
-
     }
+
+        @Override
+        protected void onDestroy() {
+            super.onDestroy();
+            Log.i("Act1", "onDestroy");
+
+            // Iniciar la segunda actividad al destruir la actual
+            Intent ejemplo = new Intent(this, MainActivity.class);
+            startActivity(ejemplo);
+        }
+
 }

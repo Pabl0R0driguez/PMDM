@@ -134,22 +134,4 @@
             android:backgroundTint="@color/design_default_color_primary_dark"/>
     </LinearLayout>
 
-    <ToggleButton
-        android:id="@+id/bt12"
-        android:layout_width="202dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:backgroundTint="@color/design_default_color_primary_dark"
-        android:textOff="no pulsado "
-        android:textOn="Desaparecer " />
-
-    <ImageButton
-        android:id="@+id/bt13"
-        android:layout_width="178dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:backgroundTint="@color/design_default_color_primary_dark"
-        android:src="@drawable/messi"
-        android:textOff="no pulsado "
-        android:textOn="Desaparecer " />
 </LinearLayout>
